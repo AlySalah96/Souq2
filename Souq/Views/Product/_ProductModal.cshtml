@@ -1,0 +1,70 @@
+﻿@model Souq.Models.Product
+@{
+       
+}
+
+<div class="modal fade" id="myModal" role="dialog" style="width:70%;max-width:900px;left:15%;top:15%;overflow-y: hidden;border-radius:0px">
+    <div class="modal-dialog" style="max-width:none">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="border-radius:0px">
+
+            <div class="modal-body">
+                <a href="" style="text-decoration:none;color:black;cursor:pointer;font-size: 1.5714285714rem;font-weight: 700;">@Model.Name</a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <br />
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div style="padding-top:5px">
+                            @for (int star = 0; star < Model.Stars; star++)
+                            {
+                                <img src="~/Content/Images/Filled_star.png" class="stars" style="float:left;height: 20px;" />
+                            }
+                            
+                        </div>
+                        <br />
+                        <button type="button" class="btn btn-danger btn-sm sale">@Model.Sale % OFF</button>
+                        <img src="~/Content/Images/Product/@Model.Image" class="image" style="height: 85%;width: 85%;padding: 25px;" />
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <br />
+                        <h5 class="price" style="font-size: 1.29rem;color:#006fcc;font-weight:700">
+                            <span>@Model.Price 00 EGP</span>
+                        </h5>
+
+                        <span class="beforeSale" style="text-decoration: line-through;color: #aeaeae;font-size: 1rem;font-weight: 400;line-height: 2.1428571429rem;">
+                            816.00
+                            <small class="currency-text">
+                                EGP
+                            </small>
+                        </span>
+                        <span class="save" style="font-size:1rem;font-weight:bold">
+                            - You save 117.00 EGP
+                        </span>
+
+
+                        <div class="dropdown-divider"></div>
+                        <div class="des" style="overflow:hidden">
+                            <h3 class="title" style="font-weight: 700;font-size: 1rem;">PRODUCT INFORMATION</h3>
+                            <p>@Model.Description
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <br />
+                        <span style="font-size:.8rem;color:#ec5840;font-weight:bold">Order now, only 3 left in stock!</span>
+                        <br />
+                        <a href="/Cart/ShowUserCart/@Model.ID" class="btn btn-success form-control" style="margin-top:13px" role="button">ADD TO CARD</a>
+                        <div class="dropdown-divider"></div>
+                        <strong>Condition</strong>
+                        <span class="condition-status">New</span>
+                        <br /><br />
+                        <strong>Sold by</strong>
+                        <span class="condition-status">SouqEgypt</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

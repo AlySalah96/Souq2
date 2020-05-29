@@ -1,0 +1,76 @@
+﻿@model Souq.ViewModels.DashboardViewModel
+@{
+
+}
+    <div class="container-fluid" style="background-color:white">
+        
+        <div style="width:100%;height:200px ;display:flex;align-items:center;background-color:#e9ecef;padding-left:20px;margin-bottom:15px">
+
+            <div>
+                <h3>Hello , admin!</h3>
+                <span style="font-size:1rem">Welcome to eCommerce Dashboard</span>
+            </div>
+        </div>
+
+        <div  style="display:flex;flex-direction:row;justify-content:space-between; flex-wrap: wrap;">
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff; margin-top:20px">
+                <div>
+                    <p style="padding: 20px">@Model.CatogeriesCount</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding:20px">Categories</p>
+                </div>
+            </div>
+
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff; margin-top:20px">
+                <div>
+                    <p style="padding:20px">@Model.ProductCount</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding:20px">Products</p>
+                </div>
+            </div>
+
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff;margin-top:20px">
+                <div>
+                    <p style="padding:20px">@Model.OrderCount</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding:20px">Orders</p>
+                </div>
+            </div>
+
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff;margin-top:20px">
+                <div>
+                    <p style="padding: 20px">@Model.OrderCount</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding: 20px">Roles</p>
+                </div>
+            </div>
+
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff;margin-top:20px">
+                <div>
+                    <p style="padding:20px">@Model.UsersCount</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding:20px">Users</p>
+                </div>
+            </div>
+
+            <div style="width:30%;text-align: center;border: 1px solid lightgray;border-radius: 5px;font-size:2rem;color:#3094ff;margin-top:20px">
+                <div>
+                    <p style="padding:20px">@Model.CommentsCounts</p>
+                </div>
+                <hr style="margin:0px" />
+                <div style="background-color: #f7f7f7">
+                    <p style="padding:20px">Comments</p>
+                </div>
+            </div>
+        </div>
+        </div>

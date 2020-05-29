@@ -1,0 +1,299 @@
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Souq.dll.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csi.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csi.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\csi.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.AppContext.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Collections.Immutable.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Console.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Globalization.Calendars.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.IO.Compression.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.IO.FileSystem.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Net.Http.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Net.Sockets.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Reflection.Metadata.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.ValueTuple.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Xml.XPath.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\vbc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\vbc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\vbc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\VBCSCompiler.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\roslyn\VBCSCompiler.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Antlr3.Runtime.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Newtonsoft.Json.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Helpers.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Mvc.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Optimization.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.Deployment.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\WebGrease.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Helpers.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Mvc.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Optimization.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.Deployment.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\System.Web.WebPages.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Newtonsoft.Json.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Antlr3.Runtime.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.csprojAssemblyReference.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.csproj.CoreCompileInputs.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.csproj.CopyComplete
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\EntityFramework.SqlServer.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\EntityFramework.SqlServer.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.Migrations.create.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq\Souq\obj\Debug\Souq.csproj.GenerateResource.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.csprojAssemblyReference.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.csproj.CoreCompileInputs.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Souq.dll.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csi.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csi.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\csi.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.AppContext.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Collections.Immutable.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Console.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Globalization.Calendars.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.IO.Compression.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.IO.FileSystem.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Net.Http.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Net.Sockets.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Reflection.Metadata.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.ValueTuple.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Xml.XPath.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\vbc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\vbc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\vbc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\VBCSCompiler.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\roslyn\VBCSCompiler.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Antlr3.Runtime.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\EntityFramework.SqlServer.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Newtonsoft.Json.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Helpers.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Mvc.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Optimization.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.Deployment.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\WebGrease.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\EntityFramework.SqlServer.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Helpers.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Mvc.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Optimization.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.Deployment.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\System.Web.WebPages.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Newtonsoft.Json.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Antlr3.Runtime.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.csproj.CopyComplete
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.Migrations.createdb.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.csproj.GenerateResource.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.Migrations.addOrderEntity.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.Migrations.updateWatchesEntity.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version\Souq\obj\Debug\Souq.Migrations.updateEnitityWatchesIDToInt.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Souq.dll.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csi.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csi.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\csi.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.AppContext.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Collections.Immutable.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Console.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Globalization.Calendars.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.IO.Compression.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.IO.FileSystem.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Net.Http.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Net.Sockets.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Reflection.Metadata.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.ValueTuple.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Xml.XPath.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\vbc.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\vbc.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\vbc.rsp
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\VBCSCompiler.exe
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\roslyn\VBCSCompiler.exe.config
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Antlr3.Runtime.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\EntityFramework.SqlServer.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Newtonsoft.Json.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Owin.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Helpers.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Mvc.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Optimization.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.Deployment.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.Razor.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\WebGrease.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\EntityFramework.SqlServer.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Helpers.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Mvc.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Optimization.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.Deployment.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\System.Web.WebPages.Razor.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Newtonsoft.Json.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Antlr3.Runtime.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.Migrations.step1.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.Migrations.step2.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.Migrations.addCartEntity.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.Migrations.addColDesInCat.resources
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.csproj.GenerateResource.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.csproj.CoreCompileInputs.cache
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.csproj.CopyComplete
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.dll
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.pdb
+E:\ITI\Back-End\Asp.Net MVC Core\Souq - New Version - Copy\Souq\obj\Debug\Souq.csprojAssemblyReference.cache

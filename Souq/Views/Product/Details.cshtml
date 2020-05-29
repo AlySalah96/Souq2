@@ -1,0 +1,103 @@
+﻿@model Souq.Models.Product
+@{
+    ViewBag.Title = "Details";
+
+    string[] prodInfo = Model.Description.Split(',');
+}
+
+<br />
+
+<div class="container" style="padding:20px">
+    <div class="row" style="background-color:white;">
+        <div class="col-lg-4 col-md-4">
+            <h4 style="text-decoration:none;color:black;cursor:pointer;font-size: 1.5714285714rem;
+                   font-weight: 700;">
+                @Model.Name
+            </h4>
+            <div style="padding-top:5px">
+                <a href="" style="float:left; padding-right:10px">By @Model.Brand</a>
+                @for (int star = 0; star < Model.Stars; star++)
+                {
+                    <img src="~/Content/Images/Filled_star.png" class="stars" style="float:left;height: 20px;" />
+                }
+
+            </div>
+            <br />
+            <button type="button" class="btn btn-danger btn-sm sale">@Model.Sale % OFF</button>
+            <div style="background-color:white;">
+
+                <img src="~/Content/Images/Product/@Model.Image" class="image" style="height: 50%;width: 50%;padding-top: 25px;padding-left:50px; overflow:hidden" id="img" />
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-md-5">
+            <br />
+            <h5 class="price" style="font-size: 1.29rem;color:#006fcc;font-weight:700">
+                <span>@Model.Price 00 EGP</span>
+            </h5>
+
+            <span class="beforeSale" style="text-decoration: line-through;color: #aeaeae;font-size: 1rem;font-weight: 400;line-height: 2.1428571429rem;">
+                816.00
+                <small class="currency-text">
+                    EGP
+                </small>
+            </span>
+            <span class="save" style="font-size:1rem;font-weight:bold">
+                - You save 117.00 EGP
+            </span>
+
+
+            <div class="dropdown-divider"></div>
+            <div class="des" style="overflow:hidden">
+                <h3 class="title" style="font-weight: 700;font-size: 1rem;">PRODUCT INFORMATION</h3>
+                <ul>
+                    @foreach (var info in prodInfo)
+                    {
+                        <li>@info</li>
+                    }
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <br />
+            <span style="font-size:.8rem;color:#ec5840;font-weight:bold">Order now, only 3 left in stock!</span>
+            <br />
+            <a href="/Cart/ShowUserCart/@Model.ID" class="btn btn-success form-control" style="margin-top:5px;background-color:#484d58;padding:10px">ADD TO CARD</a>
+            <div class="dropdown-divider"></div>
+            <strong>Condition</strong>
+            <span class="condition-status">New</span>
+            <br /><br />
+            <strong>Sold by</strong>
+            <span class="condition-status">SouqEgypt</span>
+        </div>
+    </div>
+</div>
+@Html.Partial("_ProductComment")
+
+@section scripts{
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        function SaveComment(proId, text) {
+            console.log("PageOffest : " + proId + " Order : " + text);
+            //Call function ==>call url using Ajax "Jquery"
+            $.ajax({
+                url: '@Url.Action("SaveComment")',
+                type: 'GET',
+                dataType: 'Html',
+                data: {
+                    productId: proId
+                    , CommentText: text
+                },
+                success: function (response) {
+                    $("#Comment").html(response);
+                }, error: function (response) {
+                    alert(response);
+                }
+
+            });
+        }
+    </script>
+}

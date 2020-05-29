@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Souq.Models.Product>
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-3 col-md-4 col-sm-6" style="padding:0px">
+        <div class="card" style="border: solid 1px lightgray; padding: 0px; height: 350px;border-radius:0px">
+            
+            <img src="~/Content/Images/Product/@item.Image" class="card-img-top" alt="Student Image" onclick="openModal(@item.ID)"
+                 style="height: auto; max-height: 150px; padding-left: 25%; padding-right: 25%; padding-top: 15px;cursor:pointer">
+            <div class="card-body">
+                <div style="height:57px; overflow:hidden">
+                    <a href="/Product/Details/@item.ID" class="card-text" style="font-size: 1rem;font-weight:400;font-family:none;cursor:pointer;text-decoration:none;text-decoration:none;color:black">@item.Name</a><br /><br />
+                </div>
+
+                <a href="#" class="card-link" style="color: #006fcc;font-weight: 700;">@item.Price .00 EGP</a>
+                @for (int i = 0; i < @item.Stars; i++)
+                {
+                    <img src="~/Content/Images/Filled_star.png" style="float:right;height: 15px;" />
+                }
+
+                <br /><br />
+                <a href="/Cart/ShowUserCart/@item.ID" class="btn btn-success btn-lg form-control">ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+
+}
+
+

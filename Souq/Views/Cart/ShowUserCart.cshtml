@@ -1,0 +1,128 @@
+﻿@using Souq.ViewModels;
+@model List<CartViewModel>
+@{
+    ViewBag.Title = "ShowUserCart";
+}
+    <div class="container">
+        <h3 style="font-size: 1.5714285714rem;color:#222;padding-bottom:10px;padding-top:10px"><strong>Shopping Card &nbsp; (18)</strong></h3>
+        <div class="row" >
+            <div class="col-lg-6" >
+                @foreach (var item in Model)
+                {
+                <div style="background-color: white;margin-bottom:20px;padding:10px;padding-bottom:20px">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3">
+                            <div style="background-color:white;">
+                                <img src="~/Content/Images/Product/@item.Product.Image" class="image" style="height: 100%;width: 100%;padding-top: 25px;padding-left:20px; overflow:hidden" id="img" />
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9 col-md-9">
+                            <br />
+                            <h6 style="color:#222;margin-bottom: .5rem;font-weight: 400;">@item.Product.Name</h6>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="price" style="font-size: 1.29rem;color:#006fcc;font-weight:700">
+                                        <span> @item.Price.00 EGP</span><span style="font-weight: 400;font-style:italic;font-size: .8571428571rem;color:#222">&nbsp;&nbsp;&nbsp;(@item.Product.Price.00 EGP each)</span>
+                                    </h6>
+
+                                    <span class="beforeSale" style="font-size: 1rem;font-weight: 400;line-height: 2.1428571429rem;">
+                                        <span style="font-size:1.1428571429rem;color:green;">&#10004;</span>
+                                        <strong> FREE Shipping</strong>
+                                    </span>
+                                    <br />
+                                    <span class="condition-status" style="font-size: 80%;color:#818181">Sold by:</span>
+                                    <span style="font-size: 80%;color:#818181">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3alababak-EGY
+                                    </span>
+                                    <br />
+                                    <span class="condition-status" style="font-size: 80%;color:#818181">Condition:</span>
+                                    <span style="font-size: 80%;color:#818181">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New
+                                    </span>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label for="Quantity" class="col-form-label">QTY</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <input type="number" value="@item.Quantity" class="form-control" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="btn btn-primary" style="text-decoration:none">
+                        <i class="fas fa-sync-alt"></i> Update</a>
+
+                    <a href="#" class="btn btn-danger" style="text-decoration:none">
+                        <i class="far fa-trash-alt"></i> Delete</a>
+                    
+                </div>
+                }
+            </div>
+
+                <div class="col-lg-4" style="background-color: white;margin-left:30px; padding-top:10px;height:350px">
+                    <spn>Total</spn>
+                    <br />
+                    <strong>7523.00 </strong>EGY
+                    <div class="dropdown-divider"></div>
+                    <div class="row">
+                        <div class="col-lg-2" style="font-size: 2.5rem;color:green">
+                            <i class="fab fa-cc-mastercard"></i>
+                        </div>
+                        <div class="col-lg-10">
+                            <section>
+                                <span class="price">
+                                    Pay <b class="value">7,434.00</b> <small>EGP</small>
+
+                                </span>
+
+                                <span class="price-saving">
+                                    ( Save <b class="value">100.00</b> <small>EGP</small>
+                                    )
+                                </span>
+                                <br>
+                                <span class="method">By using Commercial International &nbsp;&nbsp; Bank - CIB                            </span>
+                            </section>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-2" style="font-size: 2.5rem;color:green">
+                            <i class="fab fa-cc-visa"></i>
+                        </div>
+                        <div class="col-lg-10">
+                            <section>
+                                <span class="price">
+                                    Pay <b class="value">7,434.00</b> <small>EGP</small>
+
+                                </span>
+
+                                <span class="price-saving">
+                                    ( Save <b class="value">100.00</b> <small>EGP</small>
+                                    )
+                                </span>
+                                <br>
+                                <span class="method">By using Commercial International &nbsp;&nbsp; Bank - CIB                            </span>
+                            </section>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <br />
+                        &nbsp;&nbsp;<span style="font-size:1.1428571429rem;color:green;">&#10004;</span>
+                        <span>&nbsp;&nbsp;Your order qualifies for FREE Shipping!</span>
+                    </div>
+
+                    <a href="/Cart/Checkout" class="btn btn-success form-control" style="margin-top:10px">PROCEED TO CHECKOUT</a>
+                </div>
+
+            </div>
+        </div>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Souq.ViewModels.CartViewModel>
+
+@{
+    ViewBag.Title = "Checkout";
+    int i = 1;
+    int t;
+}
+
+<h2>Checkout</h2>
+
+<div class="container">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-striped  table-hover  table-responsive">
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayName("Total")
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @i
+                    @{ i += 1;
+                        t = item.Product.Price;}
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.Product.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @{
+                        for (int x = 0; x < item.Product.Quantity; x++)
+                        {
+                            (item.Product.Price) += t;
+                        }
+                    }
+
+                    $@item.Product.Price
+
+                </td>
+
+
+            </tr>
+        }
+
+    </table>
+</div>

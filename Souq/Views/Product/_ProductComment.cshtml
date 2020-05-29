@@ -1,0 +1,97 @@
+﻿<div class="container" id="Comment">
+    <span style="font-size: 1.2857142857rem;">(9) Review</span>
+    <div class="row" style="padding :10px ;margin-top:10px">
+        <div class="col-lg-10">
+            @if (ViewBag.Comments != null)
+            {
+                foreach (var item in ViewBag.Comments)
+                {
+                    <div style="margin-bottom:10px;background-color:white;padding:10px">
+                        @for (int star = 0; star < item.Stars; star++)
+                        {
+                            <img src="~/Content/Images/Filled_star.png" class="stars" style="float:left;height: 15px;" />
+
+                        }
+
+                        <br />
+                        <span>By <strong>@item.CustomerId</strong> on <span>05 April 2018</span></span>
+                        <br />
+                        @item.CommentText
+
+                        <br />
+                        <div style="padding-top:10px">
+                            <button type="button" class="btn btn-outline-info">
+                                <i class="fas fa-thumbs-up"></i> Helpful
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary">
+                                <i class="fas fa-thumbs-down"></i> Not Helpful
+                            </button>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div style="padding:10px">
+        
+            <input type="text" id="comment" placeholder="Write your comment here." style="width:100%;height:70px;margin-bottom:10px" class="form-control" />
+            <button type="button" class="btn btn-success" onclick="SaveComment(@ViewBag.ProdectId,document.getElementById('comment').value)">Leave your comment</button>
+            <div style="float:right">
+
+                <img class="star-rating" src="~/Content/Images/empty_star.png" onmouseover="showRate(1)" onmouseout="removeRate(1)"
+                     onclick="setRate(1)">
+
+                <img class="star-rating" src="~/Content/Images/empty_star.png" onmouseover="showRate(2)" onmouseout="removeRate(2)"
+                     onclick="setRate(2)">
+
+                <img class="star-rating" src="~/Content/Images/empty_star.png" onmouseover="showRate(3)" onmouseout="removeRate(3)"
+                     onclick="setRate(3)">
+
+                <img class="star-rating" src="~/Content/Images/empty_star.png" onmouseover="showRate(4)" onmouseout="removeRate(4)"
+                     onclick="setRate(4)">
+
+                <img class=" star-rating" src="~/Content/Images/empty_star.png" onmouseover="showRate(5)" onmouseout="removeRate(5)"
+                     onclick="setRate(5)">
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+<script>
+    var stars = document.getElementsByClassName("star-rating");
+    var isClicked = false;
+
+    function showRate(curOver) {
+        if (!isClicked) {
+            for (let star = curOver - 1; star >= 0; star--) {
+                stars[star].src = "/Content/Images/Filled_star.png";
+
+            }
+        }
+    }
+
+    function removeRate(curMove) {
+        if (!isClicked) {
+            for (let star = curMove - 1; star < stars.length; star++) {
+                stars[star].src = "/Content/Images/empty_star.png";
+
+            }
+        }
+    }
+
+    function setRate(curClick) {
+        isClicked = true;
+        for (let star = curClick - 1; star >= 0; star--) {
+            stars[star].src = "/Content/Images/Filled_star.png";
+        }
+
+        for (let i = curClick; i < stars.length; i++) {
+            stars[i].src = "/Content/Images/empty_star.png";
+        }
+    }
+</script>
+

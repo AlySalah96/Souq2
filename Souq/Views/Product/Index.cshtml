@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Souq.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+
+    SelectList cat = new SelectList(ViewBag.cat, "ID", "Name");
+
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<br />
+
+
+<div class="row" style="padding-top: 10px;">
+    <div class="col-lg-3">
+        <!--Search Column-->
+        
+
+
+    </div>
+    <div class="col-lg-9">
+
+
+        <div class="row">
+            
+                <div class="form-group form-inline col-lg-12">
+                    <div class="col-lg-3">
+                        <div style="font-weight: 700; font-size: 1rem;">
+
+                            @*@Html.DropDownList("CatId", cat, null, new { @class = "form-control" })*@
+                            <select class="btn btn-defualt dropdown-toggle" id="CatId" name="CatId">
+                                <option value="-1">All Categories</option>
+                                @foreach (var item in ViewBag.cat)
+                                {
+                                    <option value="@item.Id">@item.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-9" style="float:right">
+                        <input type="text" class="form-control" id="Name" placeholder="Search Product" name="Name">
+                        <button type="button" class="btn btn-outline-success" onclick="search()">Search</button>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="row" style="padding:10px" id="WatchesPanel">
+            @*@Html.Action("ShowWatchesDetails", "Watches", new { order = "Best Match" })*@
+            @Html.Partial("_ProductDetails")
+        </div>
+    </div>
+</div>
+<br />
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#" onclick="event.preventDefault();sortWatches(1)">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="event.preventDefault();sortWatches(2)">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="event.preventDefault();sortWatches(3)">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+@section scripts{
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        function sortWatches(pageOffest, order) {
+            console.log("PageOffest : " + pageOffest + " Order : " + order);
+            //Call function ==>call url using Ajax "Jquery"
+            $.ajax({
+                url: '@Url.Action("ShowWatchesDetails")',
+                type: 'GET',
+                dataType: 'Html',
+                data: { PageNo: pageOffest
+                    , orderBy: order
+                },
+                success: function (response) {
+                    $("#WatchesPanel").html(response);
+                },error: function() {
+                }
+
+            });
+        }
+
+        function openModal(productId) {
+            //Call function ==>call url using Ajax "Jquery"
+            $.ajax({
+                url: '@Url.Action("OpenModal")',
+                type: 'GET',
+                dataType: 'Html',
+                data: {
+                    id: productId
+                },
+                success: function (response) {
+                    $(response).modal('show');
+                },error: function() {
+                }
+
+            });
+        }
+
+        function search() {
+            var categ = $("#CatId").val();
+            var NameOfProduct = $("#Name").val();
+
+            $.ajax({
+                url: '@Url.Action("Search")',
+                type: 'POST',
+                dataType: 'HTML',
+                data: {
+                    CatId: categ
+                    , Name: NameOfProduct
+                },
+                success: function (response) {
+                    
+                    $("#WatchesPanel").html(response);
+                }, error: function () {
+                    
+                    
+                    
+                }
+
+            });
+        }
+    </script>
+}

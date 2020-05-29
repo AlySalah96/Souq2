@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+</style>
+<div class="container-fluid" style="background-color:white">
+    <div class="row" style="border-bottom:1px solid lightgray;background-color:#f8f9fa">
+        <div class="col-lg-2" style="border-right:1px solid lightgray;padding:10px;padding-left:30px">
+            <i class="fas fa-home"></i>
+            eCommerce
+        </div>
+        <div class="col-lg-10">
+            <div style="width: 100%;background-color: #f8f9fa;padding: 7px;padding-left:15px;padding-right:15px">
+                Hi admin
+                <div style="float:right">
+                    <a href="/Account/Signout" style="text-decoration:none;color:black">
+                        <i class="fas fa-sign-in-alt"></i>
+                    </a>
+                    LogOff
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-lg-2" style="border:1px solid lightgray">
+            <div style="background-color:white">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    @*<a class="nav-link form-control" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="border:0px;background-color:#f8f9fa;border-bottom-right-radius:0px; ">
+                        
+                    </a>*@
+                    <a class="nav-link form-control active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="border:0px">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="false" style="border:0px">
+                        <i class="fas fa-user-shield"></i>
+                        Dashbord
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-categories-tab" data-toggle="pill" href="#v-pills-categories" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="border:0px">
+                        <i class="fas fa-sitemap"></i>
+                        Categories
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-products-tab" data-toggle="pill" href="#v-pills-products" role="tab" aria-controls="v-pills-products" aria-selected="false" style="border:0px">
+                        <i class="fas fa-tags"></i>
+                        Products
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="border:0px">
+                        <i class="fas fa-filter"></i>
+                        Orders
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="border:0px">
+                        <i class="fas fa-comments"></i>
+                        Comments
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="border:0px">
+                        <i class="fas fa-users"></i>
+                        Users
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="border:0px">
+                        <i class="fas fa-users-cog"></i>
+                        Roles
+                    </a>
+
+                    <a class="nav-link form-control" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="border:0px">
+                        <i class="fas fa-cogs"></i>
+                        Configuration
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    @*@{Html.RenderAction("Index", "Product");}*@
+                    @*@{Html.RenderAction("ChildAction", "Home", new { param = "first" });}*@
+                </div>
+                <div class="tab-pane fade" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+                    @{Html.RenderAction("Index","Category");}
+                </div>
+                <div class="tab-pane fade" id="v-pills-categories" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    @{Html.RenderAction("Dashboard");}
+                </div>
+                <div class="tab-pane fade" id="v-pills-products" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    @{Html.RenderAction("AllProducts");}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+    function openModal(productId) {
+            //Call function ==>call url using Ajax "Jquery"
+            $.ajax({
+                url: '@Url.Action("OpenModal","Product")',
+                type: 'GET',
+                dataType: 'Html',
+                data: {
+                    id: productId
+                },
+                success: function (response) {
+                    $(response).modal('show');
+                },error: function() {
+                }
+
+            });
+        }
+    </script>
+}
